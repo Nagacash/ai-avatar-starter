@@ -112,11 +112,11 @@ const Home = () => {
         <div className="container">
           <div className="header">
             <div className="header-title">
-              <h1>AI picture generator</h1>
+              <h1>NAGA picture generator</h1>
             </div>
             <div className="header-subtitle">
               <h2>
-                Turn me into anyone you want! Make sure you refer to me as "abraza" in the prompt
+                Turn me into anyone you want! Type in your prompt 😎
               </h2>
             </div>
             <div className="prompt-container">
