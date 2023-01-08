@@ -311,6 +311,7 @@ body {
     margin: 5px;
     padding-top: 10px;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .small{
