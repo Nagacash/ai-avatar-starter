@@ -309,9 +309,10 @@ body {
     width: 200px;
     height: 200px;
     margin: 5px;
-    padding-top: 30px;
+    padding-top: 50px;
+    flex-wrap: wrap;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 70px;
 }
 
 .small{
