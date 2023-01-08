@@ -371,6 +371,9 @@ body {
         font-size: 5px;
        font-weight: bold;
         vertical-align: 34px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 10px;
     }
     .logo{
         width:50px;
