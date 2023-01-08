@@ -380,5 +380,22 @@ body {
         padding: 5px;
     }
 
+    .generate-button{
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
+    .onesd{
+        width: 250px;
+        height: 250px;
+        margin: 5px;
+        padding-top: 50px;
+        flex-wrap: wrap;
+        text-align: center;
+        padding-bottom: 25px;
+        border-color: #fff;
+        border-style:  solid dashed;
+    }
+
     
   }
