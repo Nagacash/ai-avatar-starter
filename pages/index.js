@@ -2,6 +2,12 @@ import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 import Naga from '../assets/NAGA.png';
+import One from '../assets/one.png';
+import Two from '../assets/two.png';
+import Three from '../assets/three.png';
+
+
+
 
 const Home = () => {
 
@@ -41,7 +47,7 @@ const Home = () => {
       setRetry(0);
     }
 
-    
+
 
     const finalInput = input.replace(/raza/gi, 'abraza');
 
@@ -102,6 +108,10 @@ const Home = () => {
 
   return (
     <div className="root">
+
+
+
+
       <Head>
         <title>AI picture generator | Naga Apparel</title>
       </Head>
@@ -112,12 +122,15 @@ const Home = () => {
         <div className="container">
           <div className="header">
             <div className="header-title">
-              <h1>NAGA picture generator</h1>
+
+
+              <h1><Image src={Naga} alt="buildspace logo" className="logo" />NAGA Image Generator </h1>
             </div>
             <div className="header-subtitle">
               <h2>
                 Turn me into anyone you want! Type in your prompt 😎
               </h2>
+
             </div>
             <div className="prompt-container">
               <input className="prompt-box" value={input} onChange={onChange} />
@@ -137,7 +150,21 @@ const Home = () => {
                   </div>
                 </a>
               </div>
+
+
+
+              <div className="newcontainer">
+                <Image src={One} alt="Naga Art" className="onesd" />
+                <Image src={Two} alt="Naga Art" className="onesd" />
+
+                <Image src={Three} alt="Naga Art" className="onesd" />
+
+              </div>
+               
+
+
             </div>
+
           </div>
           {/* Add output container */}
           {img && (
@@ -147,7 +174,12 @@ const Home = () => {
               <p>{finalPrompt}</p>
             </div>
           )}
+
         </div>
+
+
+
+
         <div className="badge-container grow">
           <a
             href="https://naga-apparel.com"

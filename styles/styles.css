@@ -305,6 +305,33 @@ body {
 }
 
 
+.onesd{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    padding-top: 10px;
+    flex-wrap: wrap;
+}
+
+.small{
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+}
+
+.logo{
+    width:100px;
+    height: 100px;
+    margin: 15px;
+    margin-top: 60px;
+    vertical-align: -44px
+}
+
+.newcontainer{
+    flex:auto
+}
+
 
 /* Loading ring animation */
 .loader {
