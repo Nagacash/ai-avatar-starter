@@ -124,7 +124,7 @@ const Home = () => {
             <div className="header-title">
 
 
-              <h1><Image src={Naga} alt="buildspace logo" className="logo" />NAGA Image Generator </h1>
+              <h1 className=""><Image src={Naga} alt="buildspace logo" className="logo logo2" />NAGA Image Generator </h1>
             </div>
             <div className="header-subtitle">
               <h2>
